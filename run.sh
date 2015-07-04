@@ -4,6 +4,7 @@ if [[ -d build ]]; then {
   rm -Rf build
 } fi
 
+git log -n 3 --oneline
 mkdir build
 cd build
 cmake ..
